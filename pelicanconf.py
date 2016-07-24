@@ -6,6 +6,8 @@ AUTHOR = u'Wynand Booysen'
 SITENAME = u'Wynand Booysen'
 SITEURL = ''
 
+THEME = '/home/dev/projects/pelican-blue/'
+
 PATH = 'content'
 
 TIMEZONE = 'Africa/Johannesburg'
@@ -19,6 +21,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+SIDEBAR_DIGEST = 'SysAdmin. Developer. Tinkerer.'
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -26,8 +30,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/wynand-booysen-b578a915'),
+          ('github', 'https://github.com/wynandbooysen'),
+          ('twitter', 'https://twitter.com/wynandbooysen'),)
 
 DEFAULT_PAGINATION = 10
 
