@@ -36,5 +36,7 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/wynand-booysen-b578a915'),
 
 DEFAULT_PAGINATION = 10
 
+
+MENUITEMS = [('Blog', '/')]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
