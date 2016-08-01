@@ -8,6 +8,9 @@ SITEURL = ''
 
 THEME = '/home/dev/projects/pelican-blue/'
 
+PLUGIN_PATHS = ['/home/dev/projects/pelican-plugins/']
+PLUGINS = ['pelican_gist']
+
 PATH = 'content'
 
 TIMEZONE = 'Africa/Johannesburg'
@@ -36,7 +39,8 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/wynand-booysen-b578a915'),
 
 DEFAULT_PAGINATION = 10
 
-
 MENUITEMS = [('Blog', '/')]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DISQUS_SITENAME = "wynandbooysen"
