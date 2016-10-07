@@ -9,4 +9,5 @@ Summary: Mikrotik Configuration Snippets
 
 This post will contain snippets for various Mikrotik configuration options.
 
+Set ether1 to DHCP client
 [gist:id=0eee4afa95897a70e5b63d3ee3f5515e]

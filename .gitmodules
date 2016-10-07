@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:wynandbooysen/wynandbooysen.github.io.git
