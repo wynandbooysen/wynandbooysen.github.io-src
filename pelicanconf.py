@@ -29,8 +29,7 @@ SIDEBAR_DIGEST = 'SysAdmin. Developer. Tinkerer.'
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/wynand-booysen-b578a915'),
