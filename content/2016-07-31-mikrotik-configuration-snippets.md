@@ -10,4 +10,9 @@ Summary: Mikrotik Configuration Snippets
 This post will contain snippets for various Mikrotik configuration options.
 
 Set ether1 to DHCP client
+
 [gist:id=0eee4afa95897a70e5b63d3ee3f5515e]
+
+Override default SNMP community (Lockdown SNMP) 
+
+[gist:id=629f458dc7e93f826bee71a322317d53]
