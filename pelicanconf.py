@@ -6,9 +6,9 @@ AUTHOR = u'Wynand Booysen'
 SITENAME = u'Wynand Booysen'
 SITEURL = ''
 
-THEME = '/home/dev/projects/pelican-blue/'
+THEME = '/home/wynand/projects/pelican-blue/'
 
-PLUGIN_PATHS = ['/home/dev/projects/pelican-plugins/']
+PLUGIN_PATHS = ['/home/wynand/projects/pelican-plugins/']
 PLUGINS = ['pelican_gist']
 
 PATH = 'content'
