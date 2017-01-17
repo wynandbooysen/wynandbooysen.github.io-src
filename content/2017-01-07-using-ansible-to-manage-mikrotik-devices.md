@@ -17,10 +17,10 @@ So in order to use a configuration tool for Mikrotik devices, it has to be agent
 
 So I picked Ansible since it met the criteria the best.  You need a server that can SSH into your Mikrotik devices which serves as the control server, and Ansible Playbooks which contain the tasks to be performed against the managed nodes and a list of hosts that need to be managed.  The Playbooks are written in YAML.  It works, but it's not perfect and here is why.
 
-Mikrotik's RouterOS iss based on the Linux kernel, but it is a minimal purpose built OS.  It doesn't have Python installed - which is what Ansible uses to manage the nodes.  It does check for Python on the node after connecting by default, but you have the option to override this in your Playbook and execute RAW commands directly against the node
+Mikrotik's RouterOS is based on the Linux kernel, but it is a minimal purpose built OS.  It doesn't have Python installed - which is what Ansible uses to manage the nodes.  It does check for Python on the node after connecting by default, but you have the option to override this in your Playbook and execute RAW commands directly against the node
 
 It doesn't properly support pseudo terminals (PTY) which means the connection stays open/active and Ansible will appear to be hanging.
 
 In previous versions of Ansible a PTY was only used when the command needed to be executed as root. An if statement prevented the code from always using it. Since Ansible v2+ a PTY is always used unless specifically disabled in the ansible.cfg by uncommenting a line.  This however is only disables it for Paramiko connections, which is a little bit slower, but not OpenSSH connections.  Paramiko also throws 'No handlers could be found for logger 'paramiko.transport'' when it encounters an error due to logging not being configured, but you can just use -vvvv when executing the Playbook to debug the errors.
 
-These few quirks aside, Ansible does make it fairly easy to manage Mikrotik devices.
+These few quirks aside, Ansible does make it easier to manage Mikrotik devices.

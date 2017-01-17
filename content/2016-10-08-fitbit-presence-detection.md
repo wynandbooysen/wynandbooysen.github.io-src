@@ -9,7 +9,7 @@ Summary: FitBit Presence Detection
 
 Show with the launch of the FitBit Alta and the new FitBit Flex 2 the prices of the FitBit Flex was bound to go down.  So I picked up a FitBit Flex for just R800.  So why did I get one?
 
-Well I try and keep fit and tracking your activity helps you stay motivated.  But mainly I wanted to check the sleep monitoring function and have another Bluetooth device to be possilbly used for presence detection.
+Well I try and keep fit and tracking your activity helps you stay motivated.  But mainly I wanted to check the sleep monitoring function and have another Bluetooth device to be possibly used for presence detection.
 
 So the FitBit Flex uses a Nordic Semiconductor nRF8001 chip - which is for Bluetooth 4.0 LE connectivity.
 

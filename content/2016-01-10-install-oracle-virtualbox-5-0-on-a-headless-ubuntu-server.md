@@ -209,7 +209,7 @@ desktop application.
 **Troubleshooting**
 -------------------
 
-If your console button appears to be greyed out confirm that the
+If your console button appears to be grayed out confirm that the
 extension pack was installed successfully using:
 
 ```bash
